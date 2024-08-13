@@ -1,0 +1,59 @@
+/* Reset general */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo de fuentes */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos de encabezados */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 100%; /* Asegura que el tamaño de los encabezados sea consistente */
+    font-weight: normal; /* Elimina el estilo de fuente negrita por defecto */
+    margin: 0; /* Elimina el margen por defecto */
+  }
+  
+  /* Estilos de listas */
+  ul, ol {
+    list-style: none; /* Elimina los estilos de lista por defecto */
+  }
+  
+  /* Estilos de enlaces */
+  a {
+    text-decoration: none; /* Elimina el subrayado por defecto en los enlaces */
+    color: inherit; /* Asegura que los enlaces hereden el color del texto */
+  }
+  
+  /* Estilos de tablas */
+  table {
+    border-collapse: collapse; /* Elimina el espacio entre las celdas de la tabla */
+    border-spacing: 0; /* Elimina el espacio entre las celdas de la tabla */
+  }
+  
+  td, th {
+    border: none; /* Elimina los bordes predeterminados de las celdas de la tabla */
+  }
+  
+  /* Estilos de formularios */
+  input, textarea, select, button {
+    font-family: inherit; /* Asegura que los elementos del formulario hereden la fuente del texto */
+    font-size: inherit; /* Asegura que los elementos del formulario hereden el tamaño de la fuente */
+  }
+  
+  /* Estilos de imágenes */
+  img {
+    max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+  }
+  
+  /* Estilos de campo de formulario */
+  button, input[type="button"], input[type="submit"] {
+    background: none; /* Elimina el fondo predeterminado */
+    border: none; /* Elimina el borde predeterminado */
+    cursor: pointer; /* Cambia el cursor a una mano para botones */
+  }
+  
